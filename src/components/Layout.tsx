@@ -43,7 +43,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           borderBottom: scrolled || !isHome ? "1px solid rgba(255,255,255,0.06)" : "none",
         }}
       >
-        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between" style={{ height: "72px" }}>
+        <div className="max-w-[1400px] mx-auto px-6 flex items-center justify-between" style={{ height: "72px" }}>
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 no-underline group">
             <div
@@ -63,7 +63,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden lg:flex items-center gap-7">
+          <div className="hidden lg:flex items-center gap-5">
             {navLinks.map((l) => (
               <Link
                 key={l.to}
