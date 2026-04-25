@@ -7,6 +7,7 @@ const navLinks = [
   { to: "/rooms", label: "Номера" },
   { to: "/gallery", label: "Галерея" },
   { to: "/about", label: "О нас" },
+  { to: "/order", label: "Порядок" },
   { to: "/booking", label: "Бронирование" },
   { to: "/contacts", label: "Контакты" },
 ];
